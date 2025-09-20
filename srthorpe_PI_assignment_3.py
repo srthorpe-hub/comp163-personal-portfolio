@@ -19,49 +19,43 @@ grad_semester = "Spring 2029"
 major = "Computer Science"
 
 #Academic Data Organization
-current_courses_list = ["COMP 163", "MATH 131", "SPCH 250", "GEEN 111", "COMP 121", "HIST 106"]]
-completed_course_list = ["N/A"]
-credit_hours_list = [3, 4, 1, 1, 3, 3]
-gpa_his_list = [4.0]
+current_courses_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
+completed_course_list = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
+credit_hours_list = [3, 3, 3, 3 ]
+gpa_his_list = [3.2, 3.6, 3.4, 3.7 ]
 
 #Contact information tuples
-emergency_contact = ("Mom", "Joan leslie", "919-563-1568")
-home_address = ("346 newport lane, Raleigh, NC 27516")
-instagram = ("Instagram", "@theonlystevennnn", 699)
+emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
+home_address = ("456 Oak Street, Charlotte, NC 28202")
+instagram = ("Instagram", "@jordan_codes", 312)
 twitter = ("Twitter", "@jordandev", 127)
-bday = ("Birthday", 9,6,2006)
+bday = ("Birthday", 5,22,2006)
 
 #Interest Tracking
-current_skillset = {"Time management", "Problem solving", "Python basics"}
-learning_goals = {"Data structures", "Web design", "JavaScript", "Git"}
+current_skillset = {"Time management", "Photography", "Problem solving", "HTML", "Python basics"}
+learning_goals = {"Data structures", "Web design", "JavaScript", "Git", "Public speaking"}
 career_interests = {"Software development", "Game development", "Web development", "Data science"}
-hobbies = {"Gaming", "Basketball", "Music"}
-entertainment_backlog = {"Bleach", "Warzone", "Monopoly", "Incantation", "Rubiks Cube"}
+hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
+entertainment_backlog = {"One piece", "Barry", "Life", "Incantation", "Momento"}
 
 #Organizational Mapping (Dictionaries)
 course_credits = {
    "COMP 163": 3, 
-   "MATH 131": 4,
-   "GEEN": 1,
-   "HIST 106": 3,
-   "SPCH 250": 3,
-   "COMP 121": 1
+   "MATH 150": 3,
+   "ENG 101": 3,
+   "HIS 105": 3,
 }
 course_profs = {
     "COMP 163": "Prof. Rhodes",
-    "MATH 131": "Dr. Johnson",
-    "GEEN 111": "Dr. Parrish",
-    "HIST 106": "Dr. Devoe",
-    "SPCH 250": "Prof. Jacobs",
-    "COMP 121": "Prof. Rhodes"
+    "MATH 150": "Dr. Lee",
+    "ENG 101": "Dr. Martinez",
+    "HIS 105": "Dr. Brown"
 }
 course_rooms = {
     "COMP 163": "M-Eric 300",
-    "MATH 131": "Marteena 201",
-    "GEEN 111": "Crosby 121",
-    "HIST 106": "Crosby 210",
-    "SPCH 250": 
-    "COMP 121": 
+    "MATH 150": "Marteena 201",
+    "ENG 101": "Crosby 121",
+    "HIS 105": "Crosby 210"
 }
 monthly_budget = {
     "Food": 450,
